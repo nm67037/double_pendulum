@@ -1,0 +1,21 @@
+torque 14%:
+
+=============================================
+  SYSTEM IDENTIFICATION PARAMETERS
+=============================================
+Torque Step Applied : ~13.6 %
+Step Start Time     : 11.690 s
+Steady-State Vel    : 571.2 mm/s
+63.2% Target Mark   : 361.0 mm/s
+Time at 63.2% Mark  : 13.530 s
+---------------------------------------------
+Time Constant (τ)   : 1.840 seconds
+=============================================
+
+To calculate Mass (M) and Friction (b) in MATLAB:
+1. Convert Torque (%) to Linear Force (N) -> F_in
+2. b = F_in / Steady-State Vel
+3. M = b * τ
+
+
+
